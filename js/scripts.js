@@ -1,5 +1,5 @@
 var answers = ["infinity","firstName","vowels","script","head section"];
-var pointPerCorrect = 25;
+var pointPerCorrect = 20;
 
 function percentage(score) {
 return "Your score is " + parseInt((score / 100) * 100) + "%";
