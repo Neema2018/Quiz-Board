@@ -5,6 +5,7 @@ body{
     background-image: url(../images/is.jpeg);
     background-size: auto;
     background-position: center;
+    color: whitesmoke;
 }
 .jumbotron{
     background-color: rgb(245, 43, 168);
