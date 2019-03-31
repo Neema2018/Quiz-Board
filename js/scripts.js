@@ -1,8 +1,8 @@
 var answers = ["infinity","firstName","vowels","script","head section"];
-var pointPerCorrect = 20;
+var pointPerCorrect = 25;
 
 function percentage(score) {
-return "Your score is " + parseInt((score / 100) * 100) + "%";
+return "Your score is " + parseInt((score / 125) * 100) + "%";
 }
 
 $(document).ready(function(){
