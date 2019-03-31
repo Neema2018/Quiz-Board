@@ -1,0 +1,15 @@
+.container{
+    text-align: center;
+}
+body{
+    background-image: url(../images/is.jpeg);
+    background-size: auto;
+    background-position: center;
+}
+.jumbotron{
+    background-color: rgb(245, 43, 168);
+}
+.well{
+    background-image: url(../images/spects.jpg);
+}
+
