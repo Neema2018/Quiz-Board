@@ -1,3 +1,4 @@
+//BUSINESS LOGIC
 var answers = ["infinity","firstName","vowels","script","head section"];
 var pointPerCorrect = 25;
 
@@ -5,6 +6,7 @@ function percentage(score) {
 return "Your score is " + parseInt((score / 100) * 100) + "%";
 }
 
+// USER INTERFACE
 $(document).ready(function(){
    $("#questions").submit(function (event) {
 
