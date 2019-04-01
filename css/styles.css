@@ -5,6 +5,7 @@ body{
     background-color: black;
     background-size: auto;
     background-position: center;
+    color: black;
 }
 .jumbotron{
     background-color: rgb(245, 43, 168);

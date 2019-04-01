@@ -14,13 +14,21 @@
     <div class="container">
       <div class="jumbotron">
       <h1>JavaScript quiz board</h1>
-      <p>welcome to our after-school computer club quiz.No person will be allowed in an examination room during an examination except the <strong>candidates concerned</strong> and <strong>those supervising the examination</strong>. Candidates must appear at the examination room at least twenty minutes before the commencement of the examination.</p>
+      <p>Welcome to our after-school computer club Javascript Quiz.This quiz is very important so give it your absolute best.</p>
       <div class="well">
           <div class="panel-group">
+              <div class="form-group">
+                  <label for="intake">Date of intake</label>
+                  <input id="intake" class="form-control" type="date">
+                  <label for="Full name"> Full name</label>
+                  <input id="full name" class="form-control" type="full name">
+                  <label for="email address">email address</label>
+                  <input id="email address" class="form-control" type="email address">
+                </div>
             <h2>Pick only one answer!</h2>
       <form id='questions'>
         <div id='questionOne'>
-          <div class='question'>1. What outcome do you get in javascript after dividing a number by <strong>zero</strong>?</div>
+          <div class='question'><strong>1. What outcome do you get in javascript after dividing a number by <strong>zero</strong>?</div>
           <div class='answer'>
             <input type="radio" name='questionOneAnswer' value='NaN'>NaN
           </div>
@@ -29,26 +37,28 @@
           </div>
           <div class='answer'>
             <input type="radio" name='questionOneAnswer' value='zero'>zero
+          </strong>
           </div>
         </div>
         <br>
 
         <div id='questionTwo'>
-          <div class='question'>2. Which <strong>variable</strong> is correct?</div>
+          <div class='question'><strong>2. Which variable is correct?</div>
           <div class='answer'>
             <input type="radio" name='questionTwoAnswer' value='firstName'>firstName
           </div>
           <div class='answer'>
-            <input type="radio" name='questionTwoAnswer' value='First Name'>First Name
+            <input type="radio" name='questionTwoAnswer' value='FirstName'>First Name
           </div>
           <div class='answer'>
             <input type="radio" name='questionTwoAswer' value='FIRSTname'>FIRSTname
+          </strong>
           </div>
         </div>
         <br>
 
         <div id='questionThree'>
-          <div class='question'>3. Which one of the following is not a <strong>datatype</strong>?</div>
+          <div class='question'><strong>3. Which one of the following is not a datatype?</div>
           <div class='answer'>
             <input type="radio" name='questionThreeAnswer' value='vowels'>vowels
           </div>
@@ -57,37 +67,40 @@
           </div>
           <div class='answer'>
             <input type="radio" name='questionThreeAnswer' value='strings'>strings
+          </strong>
           </div>
         </div>
         <br>
 
         <div id='questionFour'>
-          <div class='question'>4.In which HTML element do we put Javascript?
+          <div class='question'><strong>4. In which HTML element do we put Javascript?
            <div class='answer'>
            <input type="radio" name='questionFourAnswer' value='script'>script<br>
            <div class='answer'>
            <input type="radio" name='questionFourAnswer' value='javascript'>javascript<br>
            <div class='answer'>
-           <input type="radio" name='questionFournswer' value='css'>css<br>
+           <input type="radio" name='questionFourAnswer' value='css'>css<br>
+           </strong>
            </div>
            </div>
            <br>
 
            <div id="questionFive">
-          <div class="question"> 5.Where is the correct place to insert a JavaScript?
+          <div class="question"><strong> 5.Where is the correct place to insert a JavaScript?
             <div class="answer">
         <input type="radio" name="questionFiveAnswer" value="The body section">body section<br>
         <div class="answer">
         <input type="radio" name="questionFiveAnswer" value="The head section">head section<br>
         <div class="answer">
         <input type="radio" name="questionFiveAnswer" value="The title section">title section<br>
+        </strong>
         </div>
         </div>
         <br>
 
         <div id='questionsIncomplete'></div>
         <br>
-
+        
         <div>
           <button type='submit' class="submit">SUBMIT</button>
         </div>
